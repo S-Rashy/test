@@ -1,0 +1,32 @@
+.div1{
+    display: flex;
+    border: 1px solid ;
+    justify-content: center;
+    /* align-items: center; */
+    height: 1000px;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 30px;
+    flex-direction: row-reverse;
+
+}
+.div1 div{
+    height: 100px;
+    width: 100px;
+    border: 1px solid;
+
+}
+.box1{
+    background-color: blue;
+    /* flex-grow: 1; */
+    flex-basis: 2;
+}
+.box2{
+    background-color: yellow;
+}
+.box3{
+    background-color: red;
+}
+.box4{
+    background-color: pink;
+}
